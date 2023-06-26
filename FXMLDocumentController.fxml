@@ -43,27 +43,27 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label layoutX="102.0" layoutY="113.0" text="ID" GridPane.halignment="LEFT">
+                  <Label layoutX="102.0" layoutY="113.0" text="ID" GridPane.halignment="CENTER">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="103.0" layoutY="158.0" text="Description" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+                  <Label layoutX="103.0" layoutY="158.0" text="Description" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="81.0" layoutY="203.0" text="Location" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+                  <Label layoutX="81.0" layoutY="203.0" text="Location" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="89.0" layoutY="293.0" prefHeight="0.0" prefWidth="55.0" text="Type" GridPane.halignment="LEFT" GridPane.rowIndex="3">
+                  <Label layoutX="89.0" layoutY="293.0" prefHeight="0.0" prefWidth="55.0" text="Type" GridPane.halignment="CENTER" GridPane.rowIndex="3">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label text="Date" GridPane.halignment="LEFT" GridPane.rowIndex="4">
+                  <Label text="Date" GridPane.halignment="CENTER" GridPane.rowIndex="4">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -86,22 +86,25 @@
                         <Insets left="10.0" right="10.0" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField fx:id="tfType" layoutX="127.0" layoutY="74.0" prefHeight="25.0" prefWidth="302.0" promptText="Enter Description" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <TextField fx:id="tfType" layoutX="127.0" layoutY="74.0" prefHeight="25.0" prefWidth="302.0" promptText="Enter Meeting Type" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="10.0" right="10.0" />
                      </GridPane.margin></TextField>
                   <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0" />
-                  <Label text="Start Time" GridPane.rowIndex="5">
+                  <Label text="Start Time" GridPane.halignment="CENTER" GridPane.rowIndex="5">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label text="End Time" GridPane.rowIndex="6">
+                  <Label text="End Time" GridPane.halignment="CENTER" GridPane.rowIndex="6">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <DatePicker fx:id="tfDate" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <DatePicker fx:id="tfDate" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                            <GridPane.margin>
+                                <Insets left="10.0" />
+                            </GridPane.margin></DatePicker>
                   <TextField fx:id="tfStart" prefHeight="25.0" prefWidth="314.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <GridPane.margin>
                         <Insets left="10.0" right="10.0" />
